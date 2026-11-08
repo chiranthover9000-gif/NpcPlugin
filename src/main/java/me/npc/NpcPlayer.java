@@ -55,7 +55,7 @@ public class NpcPlayer extends ServerPlayer {
 
     @Override
     public void tick() {
-        if (server.getTickCount() % 10 == 0) {
+           if (getBukkitEntity().getTicksLived() % 10 == 0) {
             connection.resetPosition();
             ((ServerLevel) level()).getChunkSource().move(this); // keeps chunks loading around the bot
         }
