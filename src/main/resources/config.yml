@@ -1,0 +1,13 @@
+# These are all editable from the in-game GUI (/npc gui) too.
+difficulty: NORMAL          # EASY, NORMAL, HARD, EXPERT
+chunk-radius: 4             # chunks each bot loads (1-32), capped by server.properties view-distance
+formation: GRID             # GRID, LINE, COLUMN, CIRCLE, WEDGE, TRIANGLE, SQUARE, SPIRAL
+spacing: 2.0
+max-npcs: 50
+spawn-count: 10
+spawn-per-tick: 2
+friendly-fire: false
+respawn: true
+respawn-delay-ticks: 60
+silent: true
+gear: none                  # none, wood, stone, iron, diamond, netherite

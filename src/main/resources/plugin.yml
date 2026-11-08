@@ -1,0 +1,13 @@
+name: NpcPlugin
+version: '${version}'
+main: me.npc.NpcPlugin
+api-version: '1.21'
+description: Spawn and control fake-player NPCs
+commands:
+  npc:
+    description: Manage and control NPCs
+    usage: /npc help
+    permission: npc.admin
+permissions:
+  npc.admin:
+    default: op
